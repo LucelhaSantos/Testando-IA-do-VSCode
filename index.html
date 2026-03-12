@@ -8,21 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-	<img id="logo" src="images/logo.png" alt="Logo Loja Esotérica" width="240" height="240">
-		<h1>Loja A.MAR-SE Esotéricos para Terapeutas Holísticos</h1>
-		<p>Bem-vindo(a). Seleção de itens pensada para práticas terapêuticas e energéticas.</p>
-		<nav>
-			<ul>
-				<li><a href="#produtos">Produtos</a></li>
-				<li><a href="#sobre">Sobre</a></li>
-				<li><a href="#depoimentos">Depoimentos</a></li>
-				<li><a href="#contato">Contato</a></li>
-			</ul>
-		</nav>
-	</header>
+<header>
+    <div class="header-container">
+        <img id="logo" src="images/logo.png" alt="Logo">
 
-	<main>
+        <div class="header-content">
+            <h1>Loja A.MAR-SE Esotéricos para Terapeutas Holísticos</h1>
+            <p>Bem-vindo(a). Seleção de itens pensada para práticas terapêuticas e energéticas.</p>
+            <nav>
+                <ul>
+                    <li><a href="#produtos" class="nav-tab-btn" data-target="produtos">Produtos</a></li>
+                    <li><a href="#sobre" class="nav-tab-btn" data-target="sobre">Sobre</a></li>
+                    <li><a href="#depoimentos" class="nav-tab-btn" data-target="depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-tab-btn" data-target="contato">Contato</a></li>
+					<li><a href="#carrinho" class="nav-tab-btn" data-target="carrinho">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
 		<section id="produtos">
 			<h2>Produtos em destaque</h2>
 
@@ -149,6 +155,7 @@
 	</footer>
 
 	<script src="cart.js" defer></script>
+	<script src="tabs.js" defer></script>
 </body>
 </html>
 
